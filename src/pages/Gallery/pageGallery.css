@@ -1,0 +1,9 @@
+.gallery-track {
+    display: flex;
+    gap: 5px;
+    padding: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+  }

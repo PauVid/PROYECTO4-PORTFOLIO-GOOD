@@ -1,0 +1,45 @@
+.header__diversion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 48%;
+    max-width: 350px;
+    min-width: 350px;
+    padding: 15px 5px;
+    background-color: #242424bd;
+    border-radius: 40px;
+    position: fixed;
+    z-index: 2;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 15px
+}
+
+.header__logo {
+    height: 30px;
+}
+
+.icons__diversion {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    cursor: pointer;
+}
+
+a:focus{
+    color: blue;
+    transform: scale(1.1);
+}
+
+a:hover {
+    color: rgb(228, 191, 91);
+    transform: scale(1.1);
+}

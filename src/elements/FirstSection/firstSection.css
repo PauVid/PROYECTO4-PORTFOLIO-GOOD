@@ -1,0 +1,10 @@
+#cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
+
+.first-section {
+    padding: 15px;
+}
