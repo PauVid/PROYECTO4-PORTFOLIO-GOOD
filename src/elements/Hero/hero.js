@@ -16,7 +16,7 @@ const layout = () => {
     page.append(heroSection);
 
     const btnData = [
-      { text: 'Conóceme', background: '#f2f2f2', btnHref: '#' },
+      { text: 'Conóceme', background: '#f2f2f2', btnHref: './conoceme.html' },
     ];
     
     const heroCta = document.createElement("div");

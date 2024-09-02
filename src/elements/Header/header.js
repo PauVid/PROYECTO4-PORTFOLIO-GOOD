@@ -24,7 +24,7 @@ const layout = () => {
 
     const menuGallery = document.createElement("a");
     menuGallery.className = "menu_gallery";
-    menuGallery.href = "/pageGallery.html";
+    menuGallery.href = "#";
     menuGallery.textContent = "Gallery";
   
   

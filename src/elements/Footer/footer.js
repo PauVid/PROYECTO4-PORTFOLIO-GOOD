@@ -9,7 +9,7 @@ const template = () => {
     footerElements.classList.add("footer_container")
     footerElements.innerHTML = `
     <a>FAQ</a>
-    <a>Preguntas frequentes</a>
+    <a>Preguntas frecuentes</a>
     <a>Conóceme</a>
     <a>Contáctame</a>
     `;
