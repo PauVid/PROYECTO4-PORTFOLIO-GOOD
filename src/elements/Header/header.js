@@ -7,7 +7,7 @@ const layout = () => {
 
     const logoHeader = document.createElement("img");
     logoHeader.className = "header__logo";
-    logoHeader.src = "./assets/paulogo.svg"
+    logoHeader.src = "/assets/paulogo.svg"
     logoHeader.href = "./index.html";
 
     const divMenuHeader = document.createElement("div");
@@ -15,11 +15,12 @@ const layout = () => {
 
     const menuHome = document.createElement("a");
     menuHome.className = "menu_home";
-    menuHome.href = "./index.html";
+    menuHome.href = "/index.html";
     menuHome.textContent = "Home";
 
     const menuPortfolio = document.createElement("a");
     menuPortfolio.className = "menu_portfolio";
+    menuPortfolio.href = "/About/conoceme.html"
     menuPortfolio.textContent = "Portfolio";
 
     const menuGallery = document.createElement("a");
