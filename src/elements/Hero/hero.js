@@ -16,7 +16,7 @@ const layout = () => {
     page.append(heroSection);
 
     const btnData = [
-      { text: 'Conóceme', background: '#f2f2f2', btnHref: './conoceme.html' },
+      { text: 'Conóceme', background: '#f2f2f2', btnHref: '/About/conoceme.html' },
     ];
     
     const heroCta = document.createElement("div");
@@ -24,7 +24,8 @@ const layout = () => {
     heroCta.innerHTML = `
       <h1 class="cta-text">¡Hola! Soy Pau Vidal 👨‍💻</h1>
       
-    `
+    `;
+
     btnData.forEach(btnData => {
       const btn = Button(btnData); 
       heroCta.appendChild(btn); 

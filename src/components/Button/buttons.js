@@ -2,14 +2,16 @@ import "./buttons.css";
 
 function createBtn({ text, background, btnHref }) {
     const btn = document.createElement('button'); 
-    btn.className = 'button';
-    btn.textContent = text;
-    btn.style.backgroundColor = background;
+    const btnAnchor = document.createElement('a');
 
+    btn.style.backgroundColor = background;
+    btn.textContent = text;
+    btn.className = 'button';
 
     if (btnHref) {
         btn.addEventListener('click', () => {
             window.location.href = btnHref;
+            
         });
     }
 
