@@ -1,3 +1,4 @@
+import Button from '../../components/Button/buttons';
 import Card from '../../components/Card/cards';
 import "./firstSection.css";
 
@@ -26,6 +27,8 @@ const layout = () => {
     section.append(cardContainerText)
     section.appendChild(cardContainer); 
     page.appendChild(section); 
+
+    Button
 }
 
 const FirstSection = () => {

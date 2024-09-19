@@ -17,7 +17,10 @@ const layout = () => {
     text_container.classList.add("aboutMe_text_container");
     text_container.innerHTML = `
         <h2>Conóceme más</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Hola, soy un diseñador gráfico apasionado por transformar ideas en experiencias visuales impactantes. Desde que empecé mi carrera, he tenido el privilegio de colaborar con diversos clientes y equipos, creando soluciones creativas que no solo destacan, sino que también comunican mensajes de manera efectiva.
+Mi enfoque en el diseño se basa en la comprensión profunda de las necesidades del cliente y el mercado. Me encanta explorar diferentes estilos y técnicas para ofrecer soluciones visuales únicas que capturan la esencia de cada proyecto. Mi experiencia abarca desde la creación de identidades visuales y diseño de interfaces hasta la producción de materiales gráficos para campañas publicitarias.
+Siempre estoy en busca de nuevos retos y oportunidades para aprender y crecer en este dinámico campo. Mi objetivo es combinar creatividad con funcionalidad, asegurando que cada diseño no solo sea estéticamente atractivo, sino también efectivo en su propósito.
+Gracias por visitar mi portafolio. Si tienes algún proyecto en mente o simplemente quieres conectar, no dudes en ponerte en contacto conmigo.</p>
     `
 
     sectionContainer.append(image_container, text_container)

@@ -1,12 +1,13 @@
 import Button from "../../components/Button/buttons";
+import { LoadAboutMeContent } from "../PorfolioContent/conoceme";
 import "./hero.css";
-
 
 const layout = () => {
     const page = document.querySelector("#app");
 
     const heroSection = document.createElement("section");
     heroSection.classList.add("hero_section");
+    
     const heroImg = document.createElement("img");
     heroImg.classList.add("hero_image");
     heroImg.src = "assets/imgs/section2_1.jpg";
@@ -16,7 +17,7 @@ const layout = () => {
     page.append(heroSection);
 
     const btnData = [
-      { text: 'Conóceme', background: '#f2f2f2', btnHref: '/About/conoceme.html' },
+      { text: 'Conóceme', background: '#f2f2f2', action: LoadAboutMeContent },
     ];
     
     const heroCta = document.createElement("div");

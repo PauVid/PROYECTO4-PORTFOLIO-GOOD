@@ -1,32 +1,36 @@
 #aboutMe_container {
     display: flex;
+    position: relative;
     flex-direction: row;
     justify-content: center;
     gap: 30px;
-    flex-wrap: nowrap;
-    margin-top: 120px;
+    flex-wrap: wrap;
+    margin-top: 100px;
     height: 100%;
-    align-items: flex-start;
-    margin-inline: 130px;
+    margin-inline: auto;
     padding: 50px;
+    width: 60%;
+    max-width: 100vw;
     border-radius: 8px;
     background-color: #252525;
     box-shadow: rgb(59 59 59 / 27%) 0px 0px 0.25em, rgb(211 211 211 / 5%) 0px 0.25em 1em;
 }
 
 .aboutMe_image_container {
-    width: 30vw;
+    width: 100%;
     height: 250px;
     overflow: hidden;
 }
 
 .aboutMe_image_container > img{
     height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 
 .aboutMe_text_container {
-    width: 40vw;
+    width: 100%;
 }
 
 .aboutMe_text_container > h2 {
@@ -36,4 +40,5 @@
 .aboutMe_text_container > h2, 
 .aboutMe_text_container > p {
     color: #f2f2f2;
+    width: 100%;
 }

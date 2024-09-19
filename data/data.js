@@ -14,7 +14,7 @@ const data = {
         "MBA Sales specialization",
       ],
       },
-      workExperience: [
+    workExperience: [
         {
           position: "Jr Digital Designer",
           company: "VML",
