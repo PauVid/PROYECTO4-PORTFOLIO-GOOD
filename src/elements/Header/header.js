@@ -37,12 +37,13 @@ const layout = () => {
         menuLink.href = link.href;
         menuLink.textContent = link.text;
 
-        if (link.className === "menu_portfolio") {
-            menuLink.addEventListener("click", (event) => {
-                event.preventDefault();
-                LoadAboutMeContent();  
-            });
-        } else if (link.className === "menu_about") {
+        // if (link.className === "menu_portfolio") {
+        //     menuLink.addEventListener("click", (event) => {
+        //         event.preventDefault();
+        //         LoadAboutMeContent();  
+        //     });
+        // } else 
+        if (link.className === "menu_about") {
             menuLink.addEventListener("click", (event) => {
                 event.preventDefault(); 
                 LoadAboutMeContent();  
