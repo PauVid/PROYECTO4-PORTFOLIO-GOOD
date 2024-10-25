@@ -27,7 +27,7 @@ const layout = () => {
 
     const links = [
         { className: "menu_home", href: "/index.html", text: "Home" },
-        { className: "menu_portfolio", href: "#", text: "Portfolio" },
+        // { className: "menu_portfolio", href: "#", text: "Portfolio" }
         { className: "menu_about", href: "#", text: "About me" }
     ];
 
